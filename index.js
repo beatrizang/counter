@@ -7,6 +7,11 @@ document.getElementById("btn_decrease").addEventListener('click',() => {
     if(count<0){
         number.style.color = "var(--red)";
     }
+    else{
+        if(count == 0){
+            number.style.color = "aliceblue";
+        }
+    }
 });
 
 document.getElementById("btn_reset").addEventListener('click',() =>{
@@ -20,6 +25,11 @@ document.getElementById("btn_increase").addEventListener('click', () =>{
     number.innerHTML = count;
     if(count>0){
         number.style.color = "var(--green)";
+    }
+    else{
+        if(count == 0){
+            number.style.color = "aliceblue";
+        }
     }
 })
 
