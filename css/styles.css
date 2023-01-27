@@ -54,3 +54,27 @@ body{
     color: var(--black);
     transition: 0.3s;
 }
+
+@media screen and (max-width: 768px) {
+    .main__buttons{
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .main__button{
+        width: 100%;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .main__buttons{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .main__button{
+        width: 100%;
+        margin: 1rem;
+    }
+}

@@ -16,7 +16,7 @@
 
  Increase, reset or decrease the count by clicking the buttons.
 
-### Screenshot
+### Screenshots
 
 ![](./images/screen1.png)
 
@@ -30,8 +30,8 @@
 
 ### Links
 
-- Challenge URL: 
-- Live Site URL: 
+- Challenge URL: https://tinyurl.com/y2yb3vb5
+- Live Site URL: https://beatrizang.github.io/counter/
 
 ### Built with
 
